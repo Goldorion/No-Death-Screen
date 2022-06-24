@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "nds",
+  "version": "${version}",
+  "name": "No Death Screen",
+  "description": "Disable the death screen",
+  "authors": [
+    "Goldorion"
+  ],
+  "license": "LGPL-3.0",
+  "environment": "client",
+  "mixins": [
+    "nds.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "minecraft": ">=1.19"
+  }
+}
